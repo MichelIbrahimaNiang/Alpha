@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma,Geneva, sans-serif;
+    background:url(../HTML/Mecque.mp4)center center fixed no-repeat;
+    background-size:cover ;
+    background-image: linear-gradient(306deg, rgba(54, 54, 54, 0.05) 0%, rgba(54, 54, 54, 0.05) 33.333%,rgba(85, 85, 85, 0.05) 33.333%, rgba(85, 85, 85, 0.05) 66.666%,rgba(255, 255, 255, 0.05) 66.666%, rgba(255, 255, 255, 0.05) 99.999%),linear-gradient(353deg, rgba(81, 81, 81, 0.05) 0%, rgba(81, 81, 81, 0.05) 33.333%,rgba(238, 238, 238, 0.05) 33.333%, rgba(238, 238, 238, 0.05) 66.666%,rgba(32, 32, 32, 0.05) 66.666%, rgba(32, 32, 32, 0.05) 99.999%),linear-gradient(140deg, rgba(192, 192, 192, 0.05) 0%, rgba(192, 192, 192, 0.05) 33.333%,rgba(109, 109, 109, 0.05) 33.333%, rgba(109, 109, 109, 0.05) 66.666%,rgba(30, 30, 30, 0.05) 66.666%, rgba(30, 30, 30, 0.05) 99.999%),linear-gradient(189deg, rgba(77, 77, 77, 0.05) 0%, rgba(77, 77, 77, 0.05) 33.333%,rgba(55, 55, 55, 0.05) 33.333%, rgba(55, 55, 55, 0.05) 66.666%,rgba(145, 145, 145, 0.05) 66.666%, rgba(145, 145, 145, 0.05) 99.999%),linear-gradient(90deg, rgb(9, 201, 186),rgb(18, 131, 221));
+}
+video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    position: absolute;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: center;
+    position:relative; 
+}
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    list-style:none;
+    display:inline-block;
+   margin: 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.li a:hover{
+    background: rgb(252, 249, 249);
+    transition: 0,5s;
+}
+.navbar a:hover{
+    color: rgb(255, 255, 255);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top:45% ;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    margin: 20px 5px;
+    text-align: center;
+    border-radius: 25px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+button:hover{
+    background:black;
+    transition: 0,5s;
+}
+button:hover{
+    color:white;
+}
+
+footer {
+    margin-top: 10px;
+    background-color:  rgb(225, 224, 224);
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+footer a {
+    color: #000000;
+    text-decoration: none;
+}
+footer P {
+    color: #000000;
+    text-decoration: none;
+}
+#conteneur{
+    height: auto;
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.anulefloat{
+    clear: both;
+}
+header {
+    height: 650px;
+}
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+header h2 {
+    display: inline-block;
+    font-size: 12px;
+    color: black;
+}
+ #conteneur > section{
+    padding: 10px;
+    background-color: #fff;
+ }
+ section .nousvous { 
+     display: inline-block;
+     width: 1000px;
+     vertical-align: top;
+     margin-right: 10px;
+     border-radius: 10px ;
+     padding: 20px;
+     margin: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ section .nousvous h1 .bdc{ 
+    text-transform: lowercase;
+ }
+ section .nousvous p{ 
+    font-size: 10px;
+ }
+ section .contenu{ 
+    display: inline-block;
+    width: 520px;
+    vertical-align: top;
+    padding: 5px;
+ }
+ section .contenu h1 { 
+    margin: 0;
+    font-size: 20px;
+ }
+ section .rectangle p { 
+    font-size: 20px;
+ }
+ section p { 
+    font-size: 20px;
+ }
+ section .contenu P:nth-child(3) img{ 
+    float: left;
+    margin-right: 10px;
+ }
+ section footer { 
+    font-style: italic;
+    background: transparent;
+ }
+ article{
+    margin-bottom: 20px;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 10px rgb(0, 4, 0);
+    width:  1200px;
+    height: 300px;
+    color: #060000;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f0f0;
+ }
+ article img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px; 
+}
+.image-left{
+    float: left;
+    margin-right: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.image-right {
+    float: right;
+    margin-left: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    overflow-x: auto; 
+}
+header {
+    background-color: #000000;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+    width: 200px;
+    height: 250px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+.hotel-list {
+    list-style: none;
+    display:inline-flex;
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+    overflow-x: auto;
+}
+.hotel-item {
+    background-image: linear-gradient(#5333ed, #2cd4d9,rgb(0, 0, 0));
+    border-radius: 10px;
+    padding:10px;
+    margin: 20px;
+    width: 200px;
+    color: #f6f1f1;
+    flex: 500px;
+    border-radius:  10px;
+    width: 250px;
+}
+.hotel-item img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+ section a {
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+    border: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+ article img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px; 
+}
+section .container{
+    flex-direction:row;  
+}
+section .container2{
+    flex-direction:column;  
+}
+.city-card2 {
+    background-image: linear-gradient(#5333ed, #2cd4d9,white);
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 20px;
+   width: 200px;
+   color: #f6f1f1;
+   flex: 500px;
+    
+}
